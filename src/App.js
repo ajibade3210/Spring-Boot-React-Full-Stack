@@ -4,7 +4,6 @@ import EmployeeList from "./components/EmployeeList";
 import NavBar from "./components/NavBar";
 
 function App() {
-
   return (
     <>
     <BrowserRouter>
@@ -14,7 +13,8 @@ function App() {
    <Route path="/" element={<EmployeeList />}/>
    <Route path="/employeeList" element={<EmployeeList />}/>
    <Route path="/addEmployee" element={<AddEmployee />}/>
-   </Routes>
+    <Route path="/modal/:id" element={<EmployeeList />}/>
+  </Routes>
     </BrowserRouter>
     </>
   );
