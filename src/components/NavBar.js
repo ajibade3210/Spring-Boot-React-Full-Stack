@@ -11,7 +11,7 @@ const NavBar = () => {
         href="/"
         onClick={()=> navigate("/employeeList")}
         >
-          <p className="text-white font-bold">Employee Management System</p>
+          <p className="text-white font-bold">Employee Management Systems</p>
         </a>
         </div>
     </div>
